@@ -1,0 +1,32 @@
+[
+  {
+    "operation": "add",
+    "expression": "123 + 53",
+    "result": "176",
+    "timestamp": "2026-07-03 17:28:12"
+  },
+  {
+    "operation": "subtract",
+    "expression": "123 - 643",
+    "result": "-520",
+    "timestamp": "2026-07-03 17:28:22"
+  },
+  {
+    "operation": "multiply",
+    "expression": "123 * 54",
+    "result": "6642",
+    "timestamp": "2026-07-03 17:28:31"
+  },
+  {
+    "operation": "divide",
+    "expression": "123 / 64",
+    "result": "1.921875 R 59",
+    "timestamp": "2026-07-03 17:28:39"
+  },
+  {
+    "operation": "power",
+    "expression": "123 ^ 4",
+    "result": "228886641",
+    "timestamp": "2026-07-03 17:28:50"
+  }
+]

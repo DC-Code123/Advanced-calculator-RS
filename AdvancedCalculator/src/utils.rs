@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 use serde_json;
 use std::fs::{self, File};
-use std::io::{self, Write, BufReader, BufWriter};
+use std::io::{self, BufReader, BufWriter};
 use std::path::Path;
 use chrono::prelude::*;
 
@@ -152,6 +152,7 @@ impl CalculationHistory {
         self.calculations.push(calc);
     }
     
+    /*
     /// Clears the calculation history
     pub fn clear(&mut self) {
         self.calculations.clear();
@@ -161,7 +162,8 @@ impl CalculationHistory {
     pub fn is_empty(&self) -> bool {
         self.calculations.is_empty()
     }
-    
+    */
+
     /// Displays all calculations in the history
     pub fn display(&self) {
         if self.calculations.is_empty() {
